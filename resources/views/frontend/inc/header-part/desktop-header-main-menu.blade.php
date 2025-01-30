@@ -9,7 +9,7 @@
             <li class="menu-item-has-children has-mega-menu">
                 <a title="{{ $menu['label'] }}">{{ $menu['label'] }}</a>
                 <span class="sub-toggle"></span>
-                <div class="mega-menu">
+                <div class="mega-menu"  style="z-index: 2000">
                     <div class="mega-menu__columnone">
                         <h4>Categories<span class="sub-toggle"></span></h4>
                         <ul class="mega-menu__list">

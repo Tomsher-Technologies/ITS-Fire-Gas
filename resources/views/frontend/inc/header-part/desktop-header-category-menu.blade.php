@@ -15,7 +15,7 @@
                             @endphp
                         @endif
                     @endforeach
-                    <div class="mega-menu {{ $menu_class }}">
+                    <div class="mega-menu {{ $menu_class }}" style="z-index: 2000">
                         <div class="row">
                             @foreach ($item['child'] as $sec_child)
                                 @if ($sec_child['class'] == 'menu-col-1')

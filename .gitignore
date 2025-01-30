@@ -19,5 +19,4 @@ yarn-error.log
 /.vscode
 /storage/
 /storage/framework/sessions
-/storage/logs/
-
+/storage/logs
