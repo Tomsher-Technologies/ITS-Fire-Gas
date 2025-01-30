@@ -2308,7 +2308,8 @@
   position: relative;
 }
 #hwpwrap .menu-item-bar {
-  clear: both;
+  /* clear: both; */
+  clear: none;
   line-height: 1.5em;
   position: relative;
   margin: 9px 0 0;
@@ -2568,7 +2569,8 @@
   cursor: pointer;
 }
 #hwpwrap .nav-menus-php .major-publishing-actions {
-  clear: both;
+  /* clear: both; */
+  clear: none !important;
   padding: 3px 0 6px;
 }
 #hwpwrap .nav-menus-php .major-publishing-actions .publishing-action {

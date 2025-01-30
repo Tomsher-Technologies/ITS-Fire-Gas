@@ -197,12 +197,12 @@ $brands = \App\Models\Brand::all();
 
                                     </div>
                                 @endif
-                                <div id="menu-management-liquid">
+                                <div id="menu-management-liquid w-100">
                                     <div id="menu-management">
                                         <form id="update-nav-menu" action="" method="post"
                                             enctype="multipart/form-data">
                                             <div class="menu-edit ">
-                                                <div id="nav-menu-header">
+                                                <div id="nav-menu-header" style="height: 120px !important;">
                                                     <div class="major-publishing-actions">
                                                         <label class="menu-name-label howto open-label"
                                                             for="menu-name">
@@ -309,7 +309,7 @@ $brands = \App\Models\Brand::all();
                                                                                 name="menuid_{{ $m->id }}"
                                                                                 value="{{ $m->id }}" />
 
-                                                                            <div class="row">
+                                                                            <div class="row w-100">
                                                                                 <div class="col-6">
                                                                                     <label
                                                                                         for="edit-menu-item-title-{{ $m->id }}">
@@ -375,7 +375,7 @@ $brands = \App\Models\Brand::all();
 
 
                                                                             @if ($m->depth == 0 && $indmenu->id == 1)
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -415,7 +415,7 @@ $brands = \App\Models\Brand::all();
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -438,7 +438,7 @@ $brands = \App\Models\Brand::all();
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -477,7 +477,7 @@ $brands = \App\Models\Brand::all();
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -500,7 +500,7 @@ $brands = \App\Models\Brand::all();
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -539,7 +539,7 @@ $brands = \App\Models\Brand::all();
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -562,7 +562,7 @@ $brands = \App\Models\Brand::all();
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -590,7 +590,7 @@ $brands = \App\Models\Brand::all();
                                                                             @endif
 
                                                                             @if ($m->depth == 0 && $indmenu->id == 6)
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
@@ -630,7 +630,7 @@ $brands = \App\Models\Brand::all();
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="form-group row">
+                                                                                <div class="form-group row w-100">
                                                                                     <label
                                                                                         class="col-md-3 col-form-label"
                                                                                         for="signinSrEmail">
