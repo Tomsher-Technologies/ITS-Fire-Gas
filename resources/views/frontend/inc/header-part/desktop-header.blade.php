@@ -132,6 +132,26 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="navigation__left" style="max-width: 140px !important;">
+                    <div class="menu--product-brands">
+                        <div class="menu__toggle"><span> Shop by Brands</span></div>
+                        <div class="menu__content">
+                            @php
+                                $brandMenu = getMenu(7);
+                            @endphp
+                            <ul class="menu--dropdown">
+                                @foreach ($brandMenu as $item)
+                                    <li>
+                                        <a href="{{ $item['link'] }}"
+                                            title="{{ $item['label'] }}">{{ $item['label'] }}</a>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="navigation__right">
                     <ul class="menu">
 
